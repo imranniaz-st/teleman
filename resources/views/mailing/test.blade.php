@@ -1,0 +1,1 @@
+{{ translate('This is a test connection email sent to') . ": {$email}" }}

@@ -1,0 +1,2 @@
+Do not delete this txt file.
+This folder is for invoice files.

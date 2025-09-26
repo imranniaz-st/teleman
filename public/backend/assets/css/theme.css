@@ -1,0 +1,287 @@
+/*
+ * Theme Name: Default
+ * Package : Teleman
+ * Author: thecodestudio
+ * Version	 :	1.0.0
+ * Updated	 :	19.03.2024
+**/
+
+html, body, .page-title, .overline-title, .nk-menu-text, .nk-menu-link, .title, .link, .tooltip-inner, .btn, .modal-title, .select2-selection__placeholder, .select2-selection__rendered {
+    font-family: Consolas, 'Courier New', monospace !important;
+}
+
+.link {
+    color: #364a63;
+    font-weight: bold;
+}
+
+.z-index-99{
+    z-index: 99;
+}
+
+.z-index-1{
+    z-index: -1;
+}
+
+.d-contents{
+    display: contents;
+}
+
+.nk-menu-link:hover,
+.active>.nk-menu-link,
+.nk-menu-link:hover .nk-menu-icon,
+.nk-menu-item.active>.nk-menu-link .nk-menu-icon,
+.nk-menu-item.current-menu>.nk-menu-link .nk-menu-icon,
+.nk-menu-text:hover,
+.nk-menu-sub .nk-menu-link:hover,
+.link:hover {
+    color: #364a63 !important;
+}
+
+.dark-mode .ql-picker.ql-expanded .ql-picker-label, .dark-mode .active > .nk-menu-link, .dark-mode .is-theme .nk-menu-link:hover .nk-menu-icon, .dark-mode .is-theme .nk-menu-item.active > .nk-menu-link .nk-menu-icon, .dark-mode .is-theme .nk-menu-item.current-menu > .nk-menu-link .nk-menu-icon, .dark-mode .is-theme .nk-menu-sub .nk-menu-link:hover, .dark-mode .is-theme .nk-menu-sub .active > .nk-menu-link, .dark-mode .page-link:hover {
+    color: #ebeed0 !important;
+}
+
+.f-12 {
+    font-size: 12px !important;
+}
+
+.w-69{
+  width: 69% !important;
+}
+
+.w-10{
+  width: 10% !important;
+}
+
+.mt-3px{
+    margin-top: 3px !important;
+}
+
+/* GOOGLE Translate */
+
+.goog-te-banner-frame {
+    display: none;
+    margin-top: -20px;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-combo {
+    color: #000 !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+    -webkit-tap-highlight-color: transparent !important;
+    background-color: #fff !important;
+    border-radius: 5px !important;
+    border: solid 1px #e8e8e8 !important;
+    box-sizing: border-box !important;
+    clear: both !important;
+    cursor: pointer !important;
+    display: block !important;
+    float: left !important;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    height: 30px !important;
+    line-height: 40px !important;
+    outline: none !important;
+    padding-left: 18px !important;
+    padding-right: 30px !important;
+    position: relative !important;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    white-space: nowrap !important;
+    width: auto !important;
+    margin: 2px 0 !important;
+}
+
+/* responsive  */
+.features-area-13 {
+    overflow: hidden;
+}
+
+.features-area-14 {
+    overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.position-relative {
+  position: relative;
+}
+
+.default{
+  background-color: #ecf0f1;
+}
+.login-wrapper .slick-dots {
+  margin-top: 20px;
+}
+
+.login-wrapper .slick-dots li.slick-active button {
+  background-color: #6576ff;
+}
+/* custome responsive css */
+@media (max-width : 991px) {
+  .nk-header-absolute+.nk-content {
+    margin-top: 120px;
+}
+}
+
+.mh-auto{
+  min-height: auto !important;
+}
+
+/* floating Button */
+
+.floatingButtonWrap {
+    display: block;
+    position: fixed;
+    bottom: 60px;
+    right: 45px;
+    z-index: 999;
+}
+
+.floatingButtonInner {
+    position: relative;
+}
+
+.floatingButton {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background: -webkit-linear-gradient(45deg, #8769a9, #507cb3);
+    background: -o-linear-gradient(45deg, #8769a9, #507cb3);
+    background: linear-gradient(45deg, #8769a9, #507cb3);
+    color: #fff;
+    line-height: 50px;
+    position: absolute;
+    border-radius: 50% 50%;
+    bottom: 0px;
+    right: 0px;
+    border: 5px solid #b2bedc;
+    opacity: 0.5;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.floatingButton.open,
+.floatingButton:hover,
+.floatingButton:focus,
+.floatingButton:active {
+    opacity: 1;
+    color: #fff;
+}
+
+
+.floatingButton .fa {
+    transform: rotate(0deg);
+    transition: all 0.4s;
+}
+
+.floatingButton.open .fa {
+    transform: rotate(270deg);
+}
+
+.floatingMenu {
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+    display: none;
+}
+
+.floatingMenu li {
+    width: 100%;
+    float: right;
+    list-style: none;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.floatingMenu li a {
+    padding: 8px 15px;
+    display: inline-block;
+    background: #ccd7f5;
+    color: #000000;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.4s;
+    -webkit-box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+    box-shadow: 1px 3px 5px rgba(211, 224, 255, 0.5);
+}
+
+.floatingMenu li a:hover {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.current-page em{
+    color: #fff !important;
+}
+
+.font-size-16 .nk-menu-text,
+.font-size-16 .overline-title{
+    font-size: 14px;
+}
+
+.gateway-logo{
+    width: 175px;
+    height: 70px;
+}
+
+.notify {
+    z-index: 9999 !important;
+}
+
+.lord-icon-size{
+    width: 250px;
+    height: 250px;
+}
+
+.flag-w-5{
+    width: 2.25rem;
+}
+
+.max-height-35 {
+    max-height: 50px !important;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.nk-ibx-no-height {
+    min-height: none !important;
+    max-height: none !important;
+}
+
+.pl-30{
+    padding-left: 30px !important;
+}
+
+.pl-45 {
+    padding-left: 45px !important;
+}

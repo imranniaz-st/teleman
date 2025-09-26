@@ -1,0 +1,1 @@
+{{ translate('Hello, This is your verification code') }} <strong>{{ $code }}</strong>

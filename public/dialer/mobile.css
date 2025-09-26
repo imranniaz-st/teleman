@@ -1,0 +1,175 @@
+h1 {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.phone {
+  margin-bottom: 1rem;
+  width: 100%;
+  background: #355760;
+}
+.phone .call-display {
+  color: #EAEAEA;
+  padding: 1rem;
+  background: #32373b;
+}
+.phone .call-display .dropdown-menu {
+  background: #32373b;
+  border: 2px solid #355760;
+  box-shadow: 0px 1px 2px #333;
+}
+.phone .call-display .dropdown-item:hover, .phone .call-display .dropdown-item:focus {
+  background: rgba(53, 87, 96, 0.25);
+}
+.phone .call-display .dropdown-item:active {
+  background: rgba(53, 87, 96, 0.5);
+}
+.phone .call-display .dropdown-divider {
+  border-color: #355760;
+}
+.phone .call-display .agent-name:before {
+  color: gray;
+  content: "Agent: ";
+}
+.phone .call-display .agent-ext:before {
+  color: gray;
+  content: "Ext: ";
+}
+.phone .call-display .call-info {
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 1rem;
+  background: #474e54;
+  box-shadow: 0 0 0.75rem 0.1rem #262a2d;
+}
+.phone .call-display .call-info .call-img {
+  padding: 0 0.5rem;
+  border-radius: 100%;
+}
+.phone .call-display .call-info .call-name {
+  padding-top: 0;
+  padding-left: 0.65rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.phone .dial-display {
+  position: relative;
+  background: #32373b;
+}
+.phone .dial-display input[type=tel] {
+  padding: 1rem 2.5rem;
+  color: #63b9c8;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: 0;
+}
+.phone .dial-display input[type=reset] {
+  background: 0;
+  border: 0;
+  outline: 0;
+  font-family: "fontawesome";
+  color: #63b9c8;
+  text-shadow: none;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+.phone .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: -1.5em;
+}
+.phone .grid button {
+  border: 0;
+  background: 0;
+  color: #EAEAEA;
+  padding: 1rem;
+  outline: 0;
+}
+.phone .grid button:nth-last-child(-n+3) {
+  padding-bottom: 3.3em;
+}
+.phone .grid button:hover, .phone .grid button:focus {
+  background: #3a606a;
+}
+.phone .grid button:active {
+  box-shadow: inset 0px 0px 25px #2c4850;
+  background: #33545d;
+}
+.phone .grid span {
+  display: block;
+  color: #9A9A9A;
+  font-size: 0.7rem;
+  letter-spacing: 0.3rem;
+}
+.phone .ans-call {
+  color: #fff;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 1rem;
+  margin-top: -0.5rem;
+  font-size: 2rem;
+  background: #49C763;
+  border-radius: 50% 50% 0 0/30%;
+}
+.phone .ans-call:hover, .phone .ans-call:focus {
+  background: #5dcd74;
+}
+.phone .ans-call:active {
+  box-shadow: 0;
+  background: #45c660;
+}
+.phone .end-call {
+  display: none;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 1rem;
+  margin-top: -0.5rem;
+  font-size: 2rem;
+  background: #C7495A;
+  border-radius: 50% 50% 0 0/30%;
+}
+.phone .end-call:hover, .phone .end-call:focus {
+  background: #cd5d6c;
+}
+.phone .end-call:active {
+  box-shadow: 0;
+  background: #c64556;
+}
+.phone .end-call i {
+  transform: rotate(135deg);
+}
+
+.fs-1{
+  font-size: 50px;
+}
+
+.fs-2{
+  font-size: 30px;
+}
+
+.h-2{
+    height: 20px;
+}
+
+.h-270{
+  height: 270px;
+  overflow-y: scroll;
+}
+
+.log-bg{
+    background: #151515;
+    color: #CDEE69;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    overflow: hidden;
+}

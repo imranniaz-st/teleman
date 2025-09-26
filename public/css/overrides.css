@@ -1,0 +1,31 @@
+label {
+    margin-top: -3px;
+}
+
+.saas_paypal_wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2em 2em;
+}
+.saas_pos_copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.saas_paypal_bg{
+    background-size: contain;
+}
+
+header.main.custom-stripe-header {
+    position: initial!important
+}
+.saas_paypal_wrapper.custom-saas_paypal_wrapper {
+    position: initial;
+    transform: initial;
+}
+.custom-saas_pos_copyright {
+    position: initial;
+}
